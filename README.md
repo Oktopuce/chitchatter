@@ -1,4 +1,4 @@
-# Chitchatter Flo
+# Chitchatter Florian
 
 ![Chitchatter logo](./public/logo/logo.svg)
 
