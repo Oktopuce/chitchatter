@@ -63,7 +63,7 @@ export const ConnectionTestResults = ({
           >
             <Circle sx={{ fontSize: 'small' }} />
           </Typography>{' '}
-          Full network connection
+          Full network connection XX
         </Typography>
       </Tooltip>
     )
