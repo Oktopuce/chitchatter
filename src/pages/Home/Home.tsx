@@ -70,7 +70,7 @@ export function Home({ userId }: HomeProps) {
           sx={{ maxWidth: theme.breakpoints.values.sm, mx: 'auto' }}
         >
           <Typography sx={{ mb: 2 }}>
-            Your usernameXX:{' '}
+            Votre nom d'utilisateur:{' '}
             <PeerNameDisplay paragraph={false} sx={{ fontWeight: 'bold' }}>
               {userId}
             </PeerNameDisplay>

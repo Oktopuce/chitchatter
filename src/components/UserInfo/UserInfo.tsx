@@ -99,7 +99,7 @@ export const UserInfo = ({ userId }: UserInfoProps) => {
               </IconButton>
             </Tooltip>
           </Box>
-          <FormHelperText>Your username XX</FormHelperText>
+          <FormHelperText>Votre nom d'utilisateur</FormHelperText>
         </FormControl>
       </form>
       <Dialog open={isInfoDialogOpen} onClose={handleInfoDialogClose}>

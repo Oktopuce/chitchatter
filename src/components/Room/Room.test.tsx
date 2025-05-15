@@ -96,7 +96,7 @@ describe('Room', () => {
     )
 
     const sendButton = screen.getByLabelText('Send')
-    const textInput = screen.getByPlaceholderText('Your message')
+    const textInput = screen.getByPlaceholderText('Votre message')
 
     await userEvent.type(textInput, 'hello')
 
@@ -111,7 +111,7 @@ describe('Room', () => {
     )
 
     const sendButton = screen.getByLabelText('Send')
-    const textInput = screen.getByPlaceholderText('Your message')
+    const textInput = screen.getByPlaceholderText('Votre message')
 
     await userEvent.type(textInput, 'hello')
     await userEvent.click(sendButton)
@@ -131,7 +131,7 @@ describe('Room', () => {
     )
 
     const sendButton = screen.getByLabelText('Send')
-    const textInput = screen.getByPlaceholderText('Your message')
+    const textInput = screen.getByPlaceholderText('Votre message')
 
     await userEvent.type(textInput, 'hello')
     await userEvent.click(sendButton)
